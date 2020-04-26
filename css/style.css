@@ -1,0 +1,419 @@
+html,
+body {
+    min-height: 100%;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    padding: 0 !important;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+    font-smooth: always;*/
+    line-height: 1.5;
+    outline: 0;
+    -moz-user-select: none;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+    text-size-adjust: 95%;
+}
+
+::selection {
+    color: #000;
+    background-color: #e6e6e6;
+}
+
+:focus {
+    outline: none;
+}
+
+a:hover{
+    color: #000;
+}
+
+.td-underline{
+    text-decoration: underline !important;
+}
+
+.td-none{
+    text-decoration: none !important;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 3px;
+    border:1px solid #f6f6f6;
+}
+
+button[type="button"]{
+    box-shadow: none;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+}
+
+.mw-96{
+    max-width: 96%;
+    margin: auto;
+}
+
+
+.color-black{
+    color: #000000;
+}
+
+.color-white{
+    color: #ffffff !important;
+}
+
+.color-primary{
+    color: #59649a !important;
+}
+
+.color-orange{
+    color: #f28b41 !important;
+}
+
+.color-light-orange{
+    color: #bb913c !important;
+}
+
+
+.bg-primary-color{
+    background-color: #59649a !important;
+}
+
+.bg-grey{
+    background-color: #f6f6f6 !important;
+}
+
+.bg-orange{
+    background-color: #f28b41 !important;
+}
+
+.fs-10{
+    font-size: 10px;;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+.fs-13{
+    font-size: 13px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-22{
+    font-size: 22px;
+}
+
+
+.fw-normal{
+    font-weight: normal;
+}
+
+.fw-med{
+    font-weight: 600;
+}
+
+
+.fw-bold{
+    font-weight: bold;
+}
+
+.p-3{
+    padding: 3px !important;
+}
+
+.p-10{
+    padding: 10px !important;
+}
+
+.p-15{
+    padding: 15px;
+}
+
+.p-20{
+    padding: 20px;
+}
+
+.pl-20{
+    padding-left: 20px;
+}
+
+.pl-30{
+    padding-left: 30px;
+}
+
+.pr-5{
+    padding-right: 5px;
+}
+
+.pr-10{
+    padding-right: 10px;
+}
+
+.pr-30{
+    padding-right: 30px;
+}
+
+.p-lr-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.p-lr-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+
+.w-30{
+    width: 30%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.border-right{
+    border-right: 1px solid #f4f4f4;
+}
+
+.border-left{
+    border-left: 1px solid #f4f4f4;
+}
+
+.border-left-orange{
+    border-left: 1px solid #ec8e44;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.justify-space-evenly{
+    justify-content: space-evenly;
+}
+
+.flex-flow{
+    flex-flow: wrap;
+}
+
+.custom-badge {
+    border-radius: 25px;
+    padding: 3px 10px !important;
+}
+
+.navbar-toggler {
+    transition: all linear .3s;
+}
+
+.header .navbar-toggler-icon {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: all linear .3s;
+    border-radius: 1px;
+    background-color: #f28b41;
+}
+
+.header .navbar-links .navbar-nav{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header .navbar-nav .badge {
+    border-radius: 15px;
+}
+
+.search-bar input::placeholder {
+    color: #bfbfbf;
+}
+
+.user-icon::after {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #cccccc;
+    border-radius: 50%;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: translate(0px, 6px);
+}
+
+.user-icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+
+.content {
+    min-height: 100vh;
+    position: relative;
+}
+
+.content:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/wave.png');
+    background-color: #fdf4ef;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.image-box {
+    width: 200px;
+    height: 200px;
+    background: #f3f3f3;
+    border-radius: 25px;
+}
+
+.favourite i, .compare i {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #f1f6fa;
+    padding: 7px;
+}
+
+.subscription-plans {
+    background: #f4f4f4;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.subscription-plans button {
+    border-radius: 25px;
+    padding: 4px 12px;
+}
+
+
+.accordion .card-header {
+    background: #ededed;
+    border-radius: 25px !important;
+    border: 0px;
+    margin-bottom: 0px !important;
+}
+
+.accordion .card-header button {
+    background-color: transparent;
+    border: 0px;
+    outline: none !important;
+}
+
+.accordion>.card {
+    border-radius: 0px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-radius: 0 !important;
+    background-color: transparent;
+}
+
+.accordion .card-body{
+    background: #fff;
+    border-radius: 19px;
+    border: 1px solid #fafafa;
+    padding-top: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    width: 90%;
+    margin: auto;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-bottom: 5px;
+}
+
+.
+
+
